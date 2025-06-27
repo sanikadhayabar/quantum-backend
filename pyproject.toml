@@ -2,12 +2,12 @@
 name = "backend"
 version = "0.1.0"
 description = ""
-authors = ["shraddhabhandarkar3 <bhandarkar.s@northeastern.edu>"]
+authors = ["ssanikadhayabar <dhayabarpatil.s.@northeastern.edu>"]
 readme = "README.md"
 package-mode=false 
 
 [tool.poetry.dependencies]
-python = "3.10.15"
+python = ">=3.10,<3.14"
 fastapi = "^0.115.6"
 uvicorn = "^0.32.1"
 pydantic = "^2.10.3"
